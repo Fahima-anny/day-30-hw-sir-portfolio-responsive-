@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+}
+#section1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+#image1{
+    height: 500px;
+}
+
+#text_div{
+    padding-left:  30px;
+}
+.text_div_h1{
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_div_h4{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text_div_p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+#colorfull_name{
+    color: blue;
+}
+#colorfull_name:hover{
+    color: coral;
+    transition: 1s;
+}
+button{
+    padding: 13px 40px;
+    font-size: 18px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-image: linear-gradient(tomato,orange );
+    transition: 1s;
+}
+/* section 1 end  */
+/* section 2  */
+#section2{
+padding: 100px 0px;
+background-image: url(./exp-bg.png);
+background-repeat: no-repeat;
+background-position: left 350px;
+}
+
+#section2_h1{
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+#section2_maindiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    gap: 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 217, 0),rgb(255, 0, 0));
+    border-image-slice: 1;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 2px gray;
+}
+.cards_image{
+    height: 200px;
+    width: 100%;
+}
+hr{
+    width: 100%;
+    border: 1px solid red;
+}
+.card_heading{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/* experienceSection start  */
+#experienceSection{
+    padding: 50px 0;
+    background-image: url(./exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 270px;
+
+}
+#experienceSectionHeading{
+    font-size: 54px;
+    padding-left: 20px;
+}
+#majorDiv{
+    padding: 0 50px;
+    
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.experienceCard{
+    padding: 30px 20px;
+    border-left: 7px solid rgb(243, 52, 52);
+    box-shadow: 5px 5px 20px 5px #909090;
+}
+.experienceCardHeading{
+    font-size: 34px;
+}
+.experienceCardh4{
+    font-size: 24px;
+    color: rgb(200, 132, 6);
+}
+.experienceCardP{
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:576px) {
+    
+    #section1{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 0;
+        
+    }
+    #image1{
+
+        height: 200px;
+    }
+   
+    #text_div{
+       
+            padding: 0 20px;
+       
+        text-align: center;
+    }
+    .text_div_h1{
+        font-size: 24px;
+    }
+    .text_div_h4{
+        font-size: 16px;
+    }
+    .text_div_p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+ 
+    button{
+        padding: 8px 18px;
+        font-size: 16px;
+        border-radius: 5px;
+    
+    }
+  
+
+/* section two  */
+
+
+#section2{
+    text-align: center;
+    padding: 10px 20px;
+    background-size: 50px;
+    background-position: left 150px;
+    }
+    
+    #section2_h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    #section2_maindiv{
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 10px;
+    }
+    .cards{
+        border-left: 5px solid;
+        padding: 5px;
+      
+    }
+    .cards_image{
+      padding-left: 35px;
+        height: 120px;
+        width: 250px;
+    }
+    hr{
+        width: 100%;
+        border: 1px solid red;
+    }
+    .card_heading{
+        font-size: 20px;
+    }
+
+/* section three  */
+
+    #experienceSection{
+        height: 120vh;
+        text-align: center;
+        padding: 10px 0;
+        background-position: left 120px;
+    background-size: 50px;
+    }
+    #experienceSectionHeading{
+        font-size: 30px;
+        padding-left: 0;
+    }
+    #majorDiv{
+        padding: 0 30px;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+    .experienceCard{
+        padding: 10px 10px;
+    }
+    .experienceCardHeading{
+        font-size: 24px;
+    }
+    .experienceCardh4{
+        font-size: 24px;      
+    }
+    .experienceCardP{
+        font-size: 16px;
+    }
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
